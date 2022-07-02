@@ -1,0 +1,21 @@
+{
+  "name": "tdtu-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start":"node main.js",
+    "dev": "nodemon main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "mongoose": "^6.3.2",
+    "node-telegram-bot-api": "^0.57.0"
+  }
+}
